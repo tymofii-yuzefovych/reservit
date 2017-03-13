@@ -119,7 +119,9 @@ hr {
   font-size: 12px;
   letter-spacing: 1px;
 }
-
+.navbar-header img{
+margin-top: 4px;
+}
 /* home section */
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
@@ -220,7 +222,7 @@ hr {
 #contact .col-md-8 {
   margin-bottom: 32px;
 }
-#contact .form-control {
+#contact .form-control{
   background: #ffffff;
   border: none;
   border-radius: 0;
@@ -235,6 +237,10 @@ hr {
 #contact input {
   height: 48px;
 }
+#contact select {
+  height: 48px;
+	color: #999;
+}
 #contact input[type="submit"] {
   background: transparent;
   border: 2px solid #999;
@@ -247,6 +253,7 @@ hr {
   background: #999;
   color: #ffffff;
 }
+	
 
 /* footer section */
 footer {

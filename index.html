@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/nivo-lightbox.css">
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 </head>
@@ -32,6 +33,7 @@
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
+			<img src="./images/logo.png" alt="logo" width="40px" height="40px">
 			<a href="#" class="navbar-brand">RESERVE IT</a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -57,7 +59,7 @@
 				<a href="#contact" class="smoothScroll btn btn-default">РЕЗЕРВАЦІЯ</a>
 			</div>
 		</div>
-	</div>		
+	</div>
 </section>
 
 
@@ -147,7 +149,7 @@
 			</div>
 		</div>
 	</div>
-</section>		
+</section>
 
 
 <!-- team section -->
@@ -194,8 +196,41 @@
 					<div class="col-md-6 col-sm-6">
 						<input name="email" type="email" class="form-control" id="email" placeholder="Email">
 				  </div>
+					<div class="col-md-6 col-sm-6">
+						<select id="restaurantinfosearch-cuisine" class="form-control">
+						<option value="">Restourant</option>
+						<option value="1">Амадеус</option>
+						<option value="2">Centaur</option>
+						<option value="3">Mons Pius</option>
+						<option value="4">Vintage Nouveau</option>
+						<option value="5">Чорний кіт</option>
+						</select>
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<input name="location" type="text" class="form-control" id="location" placeholder="Location">
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<input name="date" type="date" class="form-control" id="date" placeholder="Date">
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<input name="time" type="time" class="form-control" id="time" placeholder="Time 9:00">
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<select id="people" class="form-control">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						</select>
+					</div>
 					<div class="col-md-12 col-sm-12">
-						<textarea name="message" rows="8" class="form-control" id="message" placeholder="Message"></textarea>
+						<textarea name="message" rows="8" class="form-control" id="message" placeholder="Додаткова інформація" style="resize:none"></textarea>
 					</div>
 					<div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
 						<input name="submit" type="submit" class="form-control" id="submit" value="make a reservation">
@@ -250,15 +285,15 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<h3>ZENTRO</h3>
-				<p>Copyright © Resrve IT 
-                
+				<p>Copyright © Resrve IT
+
                 | Design: <a rel="nofollow" href="#" target="_parent">Tooplate</a></p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!-- JAVASCRIPT JS FILES -->	
+<!-- JAVASCRIPT JS FILES -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.parallax.js"></script>
